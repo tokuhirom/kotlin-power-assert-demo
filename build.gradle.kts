@@ -28,6 +28,7 @@ powerAssert {
     functions.addAll(
         "kotlin.assert",
         "kotlin.test.assertTrue",
+        "kotlin.test.assertNull",
         "kotlin.require",
     )
 }
