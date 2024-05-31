@@ -1,4 +1,5 @@
 kotlin の power-assert が最高なので、遊んでみた。
+(まだできたてホヤホヤ Experimental です)
 
 assertj/assertK などのアサーションライブラリは便利なのだのだけど、、
 - assertion が失敗したときに、どの処理で失敗したかとかがわかりにくい
@@ -39,3 +40,5 @@ assertK でこう書いてたコードが
 ```
 
 最高!
+
+なお、multiplatform にも対応しているみたい。
