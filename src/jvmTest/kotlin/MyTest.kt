@@ -3,14 +3,6 @@ import kotlin.test.Test
 data class User(val name: String, val age: Int)
 data class Person(val name: String)
 
-fun foo(p: String): String? {
-    if ("HOGE" == p) {
-        return null
-    } else {
-        return p.uppercase()
-    }
-}
-
 class MyTest {
     /*
     Incorrect length
